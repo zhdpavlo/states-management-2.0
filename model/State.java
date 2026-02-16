@@ -1,5 +1,4 @@
 package model;
-import model.Entity;
 
 public class State implements Entity {
 
