@@ -3,7 +3,11 @@ import repository.*;
 
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
            Repository<State> stateManager= new Repository<>();
+=======
+           Repository<State> stateManager= new Repository<>(); //State is a T. T has to have an id.
+>>>>>>> 6fb46e7 (Added comments)
 
            stateManager.add(new State("DE", "Germany"));
            stateManager.add(new State("UA", "Ukraine"));
